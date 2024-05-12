@@ -1,5 +1,5 @@
 {% set name = "earthnet" %}
-{% set version = "0.3.9" %}
+{% set version = "0.3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/earthnet-{{ version }}.tar.gz
-  sha256: 412fa87d461a50d6326b540bba59f72c71d9176017a16f288117ace9dcd759e0
+  sha256: badb5e464edcdf9a8a8266bd13169d8d1c9eb73f671b16e477aaf1f9603c26c9
 
 build:
   noarch: python
